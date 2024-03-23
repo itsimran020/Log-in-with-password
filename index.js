@@ -16,7 +16,7 @@ viewPass.addEventListener("click", () => {
 pass.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
     if (pass.value == "20012021") {
-      window.location.href = "https://www.youtube.com/shorts/bNQd1B88BxU";
+      window.location.href ="url(https://www.youtube.com/shorts/bNQd1B88BxU)";
     } else {
       pass.type = "text";
       container.style.border = "2px solid red";
