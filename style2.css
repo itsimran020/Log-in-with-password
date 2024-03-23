@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+@media (max-width: 600px) {
+  html,
+  body {
+    background-image: url(pexels-eberhard-grossgasteiger-2088170.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container {
+    margin-left: 14vw;
+    margin-top: 15vh;
+    width: 70vw;
+    border: 1px solid black;
+  }
+  .word {
+    margin-left: 5vw;
+    color: black;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .word p {
+    font-size: 25px;
+  }
+  .input-box {
+    margin-left: 5vw;
+    width: 55vw;
+    border: 1px solid black;
+  }
+  .input-box input {
+    color: black;
+    padding-left: 10px;
+  }
+  .input-box img {
+    width: 5vw;
+    margin-right: 3vw;
+  }
+  button {
+    margin-left: 5vw;
+    width: 55vw;
+    background-color: white;
+    color: black;
+    border: none;
+  }
+  .links {
+    margin-left: 23vw;
+  }
+}
